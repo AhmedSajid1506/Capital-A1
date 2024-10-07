@@ -17,7 +17,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-3 items-center px-6 md:px-20 py-3 bg-gradient-to-b from-[#042839] to-[#000203] sticky top-0 z-50">
+      <div className="grid grid-cols-2 md:grid-cols-3 items-center px-6 md:px-20 py-3 bg-[#000000] sticky top-0 z-50">
         <div className="hidden md:flex gap-4">
           <a
             className="hidden md:block text-white capitalize  text-lg"

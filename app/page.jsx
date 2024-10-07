@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Hero from "./components/Hero";
 import Heading from "./components/Heading";
+import Intro from "./components/Intro";
 
 export default function Home() {
   return (
@@ -37,15 +38,9 @@ export default function Home() {
       <Hero />
       <Heading title={"Welcome to Capital Æ1"} />
       <About />
-      <h2
-        className="text-5xl text-center mt-10 md:mt-20 leading-tight font-bold"
-        data-aos="fade-up"
-      >
-        —Æ1— Packages
-      </h2>
       <Packages />
-      <Services />
-      <AetherPlatform />
+      <Heading title={"Æ1 Introduces Æther"} />
+      <Intro />
       <Roadmap />
       <Testimonials />
       <section className="py-40 md:h-screen flex items-center justify-center w-full relative px-4 md:px-0 text-center">

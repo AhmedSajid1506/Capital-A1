@@ -44,7 +44,7 @@ export default function Roadmap() {
   //   }
   // }, []);
   return (
-    <section className="mb-20">
+    <section className="my-20">
       <div className="container text-center px-4 mb:px-0">
         <h2 className="text-5xl font-semibold">The Path to Success</h2>
         <p className="mb-10 mt-5">
@@ -52,7 +52,7 @@ export default function Roadmap() {
           success.
         </p>
       </div>
-      <VerticalTimeline>
+      <VerticalTimeline animate={false}>
         {processes.map((process, i) => (
           <VerticalTimelineElement
             key={i}

@@ -3,13 +3,11 @@ import React from "react";
 
 export default function Button({ href, children }) {
   return (
-    <div className=" bg-slate-50/5 border border-slate-800 p-2 rounded-lg">
       <Link
         href={href}
-        className="block text-white px-6 py-2 rounded-lg capitalize bg-gradient-to-r from-[#000203] to-[#042839] hover:to-[#000203] hover:from-[#042839]"
+        className="w-max text-nowrap rounded-full border border-[#f5f5f5] bg-[#f5f5f5] hover:bg-transparent px-4 py-2 text-sm leading-5 font-semibold text-black hover:text-white duration-300"
       >
         {children}
       </Link>
-    </div>
   );
 }
