@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Basic",
+    "price": "200",
+    "features": [
+      "Administration & Basic Reporting",
+      "Site online management & Optimisation",
+      "Enabling you to focus on the heart of your business's operations while we handle the essential backend tasks."
+    ],
+    "pdf": "/Basic Services Package.pdf"
+  },
+  {
+    "type": "Advanced",
+    "price": "400",
+    "features": [
+      "Administration, Reporting, Marketing, & Consultation",
+      "Reports, Charts, Action Points, & Trend Analysis",
+      "Summarises the week's overall performance, highlighting key metrics, trends, and areas for improvement in order to increase revenue."
+    ],
+    "pdf": "/Advanced Solution Package.pdf"
+  },
+  {
+    "type": "Æther",
+    "price": "Contact for Information",
+    "des": "The Premium package offers an all-inclusive logo design experience, catering to established businesses looking for a top-tier brand identity creation.",
+    "features": [
+      "Analytics, Forecasting, Allocation, & Marketing Intelligence",
+      "Leveraging the Non-Financial Value to elevate your business with its unique performance metric. Providing In-depth analysis & actionable strategies to enhance your business's performance and growth potential."
+    ],
+    "pdf": "/ÆTHER.pdf"
+  }
+]
